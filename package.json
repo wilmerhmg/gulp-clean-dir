@@ -1,6 +1,6 @@
 {
   "name": "gulp-clean-dir",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gulp plugin to clean directory",
   "main": "index.js",
   "scripts": {
@@ -35,5 +35,8 @@
     "mocha": "^5.2.0",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^13.2.0"
+  },
+  "dependencies": {
+    "through2": "^3.0.0"
   }
 }

@@ -1,9 +1,9 @@
 const fs       = require('fs');
 const path     = require('path');
-const cleanDir = require('../index');
+const cleanDir = require('../lib/cleanDir');
 const {expect} = require('chai');
 
-describe('index.js', () => {
+describe('cleanDir.js', () => {
     if(!fs.existsSync("./tempdir")){
         fs.mkdirSync('./tempdir');
     }

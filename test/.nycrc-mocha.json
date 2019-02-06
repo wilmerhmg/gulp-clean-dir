@@ -8,8 +8,8 @@
     ],
     "extension": [],
     "functions": 70,
-    "include": [      
-        "index.js"
+    "include": [
+        "lib/*"
     ],
     "instrument": true,
     "lines": 70,
