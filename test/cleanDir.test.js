@@ -18,7 +18,7 @@ describe('index.js', () => {
 
     it('should clean JS only',()=>{
         expect(cleanDir('./tempdir',{
-            ext:'.js'
+            ext:['.js']
         })).to.equal(true);
         expect(fs.readdirSync(path.resolve('./tempdir'))).to.have.lengthOf(1);
     });
