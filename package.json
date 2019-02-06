@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "debug-mocha": "node --inspect-brk node_modules/mocha/bin/_mocha src/*.mocha.js test/*.test.js",
-    "lint": "eslint index.js",
+    "lint": "eslint lib/*",
     "test": "npm run lint && npm run test-mocha && nyc report --reporter=text-lcov | coveralls",
     "test-mocha": "nyc --nycrc-path test/.nycrc-mocha.json ./node_modules/.bin/_mocha test/*.test.js"
   },
